@@ -50,13 +50,13 @@ if __name__=='__main__':
     persona1 = Persona(1, 'Juan', 'Perez', 'jperez@gmail.com')
     log.debug(persona1)
 
-#Simular un insert 
-persona1 = Persona(nombre='Juan', apellido='Perez', email='jperez@gmail.com') 
-log.debug(persona1)
+    #Simular un insert 
+    persona1 = Persona(nombre='Juan', apellido='Perez', email='jperez@gmail.com') 
+    log.debug(persona1)
 
-#Simular un Delete
-persona1 = Persona(id_persona=1)
-log.debug(persona1)
+    #Simular un Delete
+    persona1 = Persona(id_persona=1)
+    log.debug(persona1)
 
         
 
